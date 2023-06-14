@@ -9,26 +9,17 @@ layout: default
 ![Visual Cortex to Artificial Networks](Figure_1_MortX.png)
 <p style="text-align: justify">High-level overview of the developing cortical atlas across salient mouse postnatal ages. The mapping of each atlas section is discovered and represented in the same order as the brain delineates over time.</p>
 
-<h2 style="text-align: center;">Allen Brain Observatory Data</h2>
-![Methods](Methods_NeurAI.png)
-<p style="text-align: justify">Mouse Visual Cortex (MVC) data statistics: The peak activation profiles of all neurons are presented as well as their cluster profiling and distribution based on neural genotypes and brain regions.</p>
+<h2 style="text-align: center;">Domain Representation</h2>
+![Methods](Figure_2_MortX.png)
+<p style="text-align: justify">The structural and domain variability of the dataset is represented using a few sample of mouse brain sections, covering different genetic markers with their overlaying cortical atlas labels.</p>
 
-<h2 style="text-align: center">Feature Represntations</h2>
-![Representational Similarity](Extra_Figures.drawio.png)
-<p style="text-align: justify">Representational similartiy between feature detectors in a sample DNN model and MVC neural representations</p>
-
-
-<h2 style="text-align: center">DNN Architectural Similarity</h2>
-![Architectural Similarity](Figure_6.drawio.png)
-<p style="text-align: justify">DNNs' architectural similarity: The confusion matrix on the left shows the correlation similarity of 44 DNN architectures with purple as the lowest and skin as the highest correlation. The zoom version of three similar architectures (VGG11, VGG16 and VGG19) are displayed with the highlighted layer difference between VGG16 and VGG11 as ReLU and Conv between VGG16 and VGG19. The bottom matrices show the Needleman-Wunsch algorithm applied on these architectures and how the traceback matrix was used to calculate similarity index.</p>
-
-<h2 style="text-align: center">Population & Neuron Level Analysis</h2>
-![Architectural Similarity](Figure_5.drawio.png)
-<p style="text-align: justify">(a) RMSE scores of comparing feature detectors with neural representations across MVC brain regions for all the shortlisted DNN architectures, (b) shows the similar focused across neural sub-types: excitatory and inhibitory neural genotypes. The comparison between NeuRN and non-NeuRN architectures are shown in (c) with diagonal line defining the winning models for their neural compatibility. In (d), comparison of neural representations and DNN activations is mapped for both NeuRN and non-NeuRN DNN architectures, showing the activation curves of randomly sampled units in (e).</p>
+<h2 style="text-align: center">Domain Generalization tasks</h2>
+![Representational Similarity](Figure_3_MortX.png)
+<p style="text-align: justify">The possible combinations for training on source (rows) and testing on unseen target (columns) domains are presented with their train/test ratio numbers on top. The dark colors represent tasks with higher-level of complexity, whereas light colors depict the easier tasks with include large training set for domain robustness.</p>
 
 
-<h2 style="text-align: center">Summary</h2>
-<p style="text-align: justify">In this study, we explore the fascinating interplay between artificial and biological neural networks. Our work reveals a striking similarity between these systems, particularly with excitatory genotypes. To further investigate, we developed NeuRN, a neuro-inspired layer for Deep Neural Networks (DNNs), which enhances the resemblance between artificial and biological representations. Our detailed analyses at both population and single neuron levels confirmed the increased similarity and biological plausibility brought about by NeuRN. This novel layer not only boosts the generalizability and robustness of DNNs but also significantly improves performance on domain adaptation tasks, as evidenced by our experiments with Neural Architecture Search and various DNNs. In essence, our findings underscore the potential of biological mechanisms to significantly refine and advance artificial neural networks.</p>
+<h2 style="text-align: center">Broader Impact</h2>
+<p style="text-align: justify">The MortX benchmark has profound implications for neuroscience and AI research. In neuroscience, MortX provides a necessary and much sought-after tool for understanding mouse brain development at different postnatal ages. This granular level of detail can offer vital insights into neurodevelopmental disorders, contributing to improved diagnostic and therapeutic strategies. In the domain of AI, MortX is a significant step forward in addressing the challenge of domain generalization. The benchmark can be used to evaluate the robustness of machine learning models against shifts in data distribution, contributing to the development of more reliable and domain-invariant models. By releasing MortX as open-source, we hope to stimulate advancements in both neuroscience and AI, and in the intersection of the two disciplines.</p>
 
 
 
