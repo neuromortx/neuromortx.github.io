@@ -2,7 +2,7 @@
 layout: default
 ---
 
-<h2 style="text-align: center;">Introduction</h2>
+<h2 style="text-align: center;">Abstract</h2>
 <p style="text-align: justify">A mesoscale understanding of human brain development is the key to unlocking several neurodevelopmental disorders. Leveraging AI-based techniques to study the development of the cortex at the granular level involves the analysis of high-resolution, multi-modal brain imaging datasets, captured at various postnatal ages, and annotated for distinct anatomical and functional subregions and layers. We present MortX, a benchmark dataset of the developing mouse cortex, captured at multiple postnatal ages and annotated for anatomically and functionally distinct sub-regions and layers. MortX incorporates high-resolution, multi-modal brain imaging data, including bright-field and fluorescence imaging, and is labeled with prominent neuronal markers. We first construct a standardized cortical atlas validated by genetic markers, and manually register the atlas to each brain section image to generate ground-truth labels. MortX serves as a benchmark for domain generalization in neuroimaging tasks, allowing classical and deep learning models to be trained on source brains and evaluated on unseen target brains. We demonstrate the generalized performance of multiple models, as well as their efficacy of structural invariance across different ages. To foster neuroscience research, we open-source MortX as a community resource for mouse brain segmentation and registration, with a focus on domain adaptation. MortX addresses crucial challenges in mouse brain imaging data and sets the stage for advancing machine learning models that will contribute to unraveling the mysteries of neurodevelopmental disorders.</p>
 
 <h2 style="text-align: center;">Mapping the Developing Cortex</h2>
@@ -20,6 +20,11 @@ layout: default
 
 <h2 style="text-align: center">Broader Impact</h2>
 <p style="text-align: justify">The MortX benchmark has profound implications for neuroscience and AI research. In neuroscience, MortX provides a necessary and much sought-after tool for understanding mouse brain development at different postnatal ages. This granular level of detail can offer vital insights into neurodevelopmental disorders, contributing to improved diagnostic and therapeutic strategies. In the domain of AI, MortX is a significant step forward in addressing the challenge of domain generalization. The benchmark can be used to evaluate the robustness of machine learning models against shifts in data distribution, contributing to the development of more reliable and domain-invariant models. By releasing MortX as open-source, we hope to stimulate advancements in both neuroscience and AI, and in the intersection of the two disciplines.</p>
+
+<h2 style="text-align: center">Availability & Licensing</h2>
+<p style="text-align: justify">The complete benchmark dataset will be made publicly available upon the acceptance of this paper. This includes the raw image files of mouse brain sections, the corresponding annotation files and metadata. The dataset will be hosted on a suitable open data platform and be freely available for further research and analysis, which conforms to FAIR principles, ensuring persistent identifiers and broad accessibility. The dataset will be open-sourced under the Creative Commons Attribution 4.0 International (CC BY 4.0) license. The code for data preprocessing and benchmarking models on domain generalization tasks, as well as the pre-trained models, will be made available on this Github repository under MIT License. 
+
+The dataset includes animal data, collected under the ARRIVE guidelines. No human-derived biological data is included in this study. This dataset is intended as a benchmark for the development of analytical machine learning models which are robust to domain shifts in animal tissue imaging data, and thus facilitate primary neuroscience research. Insufficiently validated extensions of the animal data to any clinical research are strongly discouraged, due to potential harmful consequences for the health of individuals.</p>
 
 
 
