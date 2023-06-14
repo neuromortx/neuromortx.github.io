@@ -1,5 +1,5 @@
-title: Mice to Machines
-description: Neural Representations from Visual Cortex for Domain Generalization
+title: MortX
+description: A Domain Generalization Benchmark for Mouse Cortex Segmentation and Registration
 show_downloads: true
 google_analytics:
 theme: jekyll-theme-cayman
